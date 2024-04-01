@@ -1,3 +1,1 @@
-# Michael Mason
-
-This is in construction. 
+## Technical Director in Animation / VFX || Computer Graphics Software Engineer
