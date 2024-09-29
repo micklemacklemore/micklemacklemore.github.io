@@ -1,68 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- highlight style that's used by stack overflow -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-    <!-- and it's easy to individually load additional languages -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script> -->
-    <script>
-      hljs.highlightAll();
-    </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
 
-    <link rel="stylesheet" href="styles.css" />
-    <title>Michael Mason</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <h1>Michael Mason</h1>
-      <h2>Graphics Software Engineer</h2>
+  <!-- highlight style that's used by stack overflow -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <!-- and it's easy to individually load additional languages -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script> -->
+  <script>
+    hljs.highlightAll();
+  </script>
+
+  <link rel="stylesheet" href="styles.css" />
+  <title>Michael Mason</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>Michael Mason</h1>
+    <h2>Graphics Software Engineer</h2>
+
+    <div class="about-me">
       <p>
-        I am a basic block level element. My adjacent block level elements sit
-        on new lines below me.
+        I'm a software engineer with <span>3 years of experience</span> as an <span>animation TD</span> in
+        the visual effects / animation industry.
       </p>
+  
       <p>
-        By default we span 100% of the width of our parent element, and we are
-        as tall as our child content. Our total width and height is our content
-        + padding + border width/height.
+        Currently, I'm in grad school at the <span>University of Pennsylvania</span>, where I'm
+        in my dream master's program: <span>dual master's degree in Computer Science and
+          Computer Graphics</span>, graduating in 2025.
       </p>
+  
       <p>
-        We are separated by our margins. Because of margin collapsing, we are
-        separated by the size of one of our margins, not both.
+        I've been a <span>student volunteer</span> at the world's largest computer graphics
+        conference, <span>SIGGRAPH, since 2019</span>. I'm passionate about graphics and
+        related industries: <span>vfx, animation and video games</span>.
       </p>
-
-      <p>
-        Inline elements like this one and this one sit on the same line along
-        with adjacent text nodes, if there is space on the same line.
-        Overflowing inline elements will wrap onto a new line if possible (like
-        this one containing text), or just go on to a new line if not, much like
-        this image will do
-      </p>
-
-      <pre><code class="language-cpp">#include &lt;iostream&gt;
-
-// Some example C++ syntax that's running on my website
-int main() {
-  int x{123};
-  std::string foobar = "xyzzy"; 
-
-  std::cout &lt;&lt; "Hello World!" &lt;&lt; std::endl;
-
-  return (0); 
-}</code></pre>
     </div>
-  </body>
+
+    <h3>Skills</h3>
+
+    <ul>
+      <li><b>Languages:</b> C++, C, Python 3, JavaScript, glsl</li>
+      <li><b>APIs:</b> Maya API 2.0, Qt / PyQt, OpenUSD, OpenGL 3.x</li>
+      <li>
+        <b>DCC Software:</b> Autodesk Maya, Unreal Engine, Houdini, ZBrush,
+        Adobe Creative Suite
+      </li>
+    </ul>
+
+    <h3>Work Experience</h3>
+
+    <ul>
+      <li><b>Animal Logic,</b> Technical Director - Aug 2020 to Mar 2022</li>
+      <li>
+        <b>Pixel Zoo,</b> Technical Director - Nov 2019 to Jul 2020, Apr 2022 - Aug
+        2022
+      </li>
+    </ul>
+
+    <h3>Volunteer Experience</h3>
+
+    <ul>
+      <li><b>GDC Conference 2024</b>, Conference Associate</li>
+      <li><b>SIGGRAPH 2024,</b> Labs Committee</li>
+      <li><b>SIGGRAPH 2023,</b> Team Leader</li>
+      <li><b>SIGGRAPH 2022,</b> VR Theater Technical Lead</li>
+      <li><b>SIGGRAPH Asia 2019,</b> Student Volunteer</li>
+      <!-- <li><b>Conference Associate,</b> GDC Conference 2024</li>
+      <li><b>Team Leader,</b> SIGGRAPH 2023</li>
+      <li><b>VR Theater Technical Lead,</b> SIGGRAPH 2022</li>
+      <li><b>Student Volunteer,</b> SIGGRAPH Asia 2019</li> -->
+    </ul>
+  </div>
+</body>
+
 </html>
