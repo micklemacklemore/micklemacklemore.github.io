@@ -3,116 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/webp" href="./assets/images/profile.webp">
-    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- highlight style that's used by stack overflow -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <!-- and it's easy to individually load additional languages -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script> -->
+    <script>
+      hljs.highlightAll();
+    </script>
+
+    <link rel="stylesheet" href="styles.css" />
     <title>Michael Mason</title>
   </head>
   <body>
-    <hr />
+    <div class="wrapper">
+      <h1>Michael Mason</h1>
+      <h2>Graphics Software Engineer</h2>
+      <p>
+        I am a basic block level element. My adjacent block level elements sit
+        on new lines below me.
+      </p>
+      <p>
+        By default we span 100% of the width of our parent element, and we are
+        as tall as our child content. Our total width and height is our content
+        + padding + border width/height.
+      </p>
+      <p>
+        We are separated by our margins. Because of margin collapsing, we are
+        separated by the size of one of our margins, not both.
+      </p>
 
-    <p style="color: red">
-      <b>
-        Hey! I'm a little embarrassed. This website is under construction!!
-        Please ignore this until I've learned more about web development!!
-      </b>
-    </p>
+      <p>
+        Inline elements like this one and this one sit on the same line along
+        with adjacent text nodes, if there is space on the same line.
+        Overflowing inline elements will wrap onto a new line if possible (like
+        this one containing text), or just go on to a new line if not, much like
+        this image will do
+      </p>
 
-    <hr />
-    <img src="./assets/images/profile.webp"/>
-    <h1>Michael Mason</h1>
-    <h2>graphics software engineer / technical director</h2>
+      <pre><code class="language-cpp">#include &lt;iostream&gt;
 
-    <p>
-      I'm a software engineer with 3 years of experience as an animation TD in
-      the visual effects / animation industry.
-    </p>
+// Some example C++ syntax that's running on my website
+int main() {
+  int x{123};
+  std::string foobar = "xyzzy"; 
 
-    <p>
-      Currently, I'm in grad school at the University of Pennsylvania, where I'm
-      in my dream master's program: dual master's degree in Computer Science and
-      Computer Graphics, graduating in 2025.
-    </p>
+  std::cout &lt;&lt; "Hello World!" &lt;&lt; std::endl;
 
-    <p>
-      I've been a student volunteer at the world's largest computer graphics
-      conference, SIGGRAPH, since 2019. I'm passionate about graphics and
-      related industries: vfx, animation and video games.
-    </p>
-
-    <h2>Skills</h2>
-
-    <ul>
-      <li><b>Languages:</b> C++, C, Python 3, JavaScript, glsl</li>
-      <li><b>APIs:</b> Maya API 2.0, Qt / PyQt, OpenUSD, OpenGL 3.x</li>
-      <li>
-        <b>DCC Software:</b> Autodesk Maya, Unreal Engine, Houdini, ZBrush,
-        Adobe Creative Suite
-      </li>
-    </ul>
-
-    <h2>Work Experience</h2>
-
-    <ul>
-      <li><b>Performance TD, Animal Logic</b> -- Aug 2020 to Mar 2022</li>
-      <li>
-        <b>Pipeline TD, Pixel Zoo</b> -- Nov 2019 to Jul 2020, Apr 2022 - Aug
-        2022
-      </li>
-    </ul>
-
-    <h2>Volunteer Experience</h2>
-
-    <h3>Games Developers Conference</h3>
-    <ul>
-      <li><b>Conference Associate,</b> GDC Conference 2024</li>
-    </ul>
-    <h3>ACM SIGGRAPH</h3>
-    <ul>
-      <li><b>Team Leader,</b> SIGGRAPH 2023</li>
-      <li><b>VR Theater Technical Lead,</b> SIGGRAPH 2022</li>
-      <li><b>Student Volunteer,</b> SIGGRAPH Asia 2019</li>
-    </ul>
-
-    <hr />
-
-    <h1>Projects</h1>
-
-    <h3><a href="./public/under-construction.html">Mini-Minecraft</a></h3>
-    <img class="project-img" src="https://picsum.photos/seed/hello/500" />
-
-    <h3>
-      <a href="./public/under-construction.html">Monte Carlo Path-Tracing</a>
-    </h3>
-    <img class="project-img" src="https://picsum.photos/seed/asdf/500" />
-
-    <h3>
-      <a href="./public/under-construction.html">WeaveWizard Maya Plugin</a>
-    </h3>
-    <img class="project-img" src="https://picsum.photos/seed/uiyu/500" />
-
-    <h3>
-      <a href="./public/under-construction.html">PBR Renderer</a>
-    </h3>
-    <img class="project-img" src="https://picsum.photos/seed/oijio/500" />
-
-    <h3>
-      <a href="./public/under-construction.html">FK/IK Animation System</a>
-    </h3>
-    <img class="project-img" src="https://picsum.photos/seed/mi/500" />
-
-    <!-- Projects ? 
-    WeaveWizard
-    MineCraft
-    FKIK
-    MonteCarlo Ray Tracing
-    PBR Renderer
-    -->
-
-    <hr />
-    <a href="./public/about.html">About Me</a>
-    <a href="./public/contact.html">Contact Me</a>
-    <footer>
-        <p>© 2024 Michael Mason</p>
-    </footer>
+  return (0); 
+}</code></pre>
+    </div>
   </body>
 </html>

@@ -1,0 +1,49 @@
+.handjet-michael {
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+}
+
+.noto-sans-display-michael {
+  font-family: "Noto Sans Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h1 {
+    font-family: 'Handjet';
+    font-weight: 500;
+    font-size: 60px;
+    padding-top: 60px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Handjet';
+    font-weight: 500;
+    font-size: 60px;
+    font-weight: 300;
+    font-size: 50px; 
+    margin-top: 0px;
+    margin-bottom: 10px; 
+}
+
+div.wrapper {
+    max-width: 650px;
+    margin: 0 auto; 
+    padding-left: 30px;
+    padding-right: 30px; 
+    padding-bottom: 30px;
+}
+
+p {
+    font-family: 'Noto Sans Display';
+    font-weight: 500;
+}
