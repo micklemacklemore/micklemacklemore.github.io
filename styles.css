@@ -25,7 +25,7 @@ h1.title {
     font-family: 'Handjet';
     font-weight: 500;
     font-size: 60px;
-    padding-top: 100px;
+    padding-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -91,6 +91,9 @@ div.image-wrapper > img {
     border-radius: 1.5%;
 }
 
+article {
+    margin-bottom: 80px;
+}
 
 #mario {
     object-position: 90%;
