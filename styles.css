@@ -1,25 +1,25 @@
 .handjet-michael {
-  font-family: "Handjet", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "ELGR" 1,
-    "ELSH" 2;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "ELGR" 1,
+        "ELSH" 2;
 }
 
 .noto-sans-display-michael {
-  font-family: "Noto Sans Display", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Noto Sans Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 span.highlighter {
     background: linear-gradient(to left, rgba(0, 255, 255, 1.0), rgba(0, 255, 2, 1.0)) 0 50% / 100% 13px no-repeat;
-} 
+}
 
 h1.title {
     font-family: 'Handjet';
@@ -34,20 +34,64 @@ h2.subtitle {
     font-weight: 500;
     font-size: 60px;
     font-weight: 300;
-    font-size: 50px; 
+    font-size: 50px;
     margin-top: 0px;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 
 div.wrapper {
-    max-width: 650px;
-    margin: 0 auto; 
+    max-width: 940px;
+    margin: 0 auto;
     padding-left: 30px;
-    padding-right: 30px; 
+    padding-right: 30px;
     padding-bottom: 30px;
+    overflow: hidden;
 }
 
 body {
     font-family: 'Noto Sans Display';
     font-weight: 500;
+}
+
+.project-img-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100% !important;
+    height: 350px;
+}
+
+.project-img-container > div {
+    flex: 1 1 100px;
+    margin: 1px
+}
+
+.project-img-container > div.big {
+    flex: 2 1 100px; 
+}
+
+.project-img-container > div > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+div.center {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+div.image-wrapper {
+    display: flex;
+}
+
+div.image-wrapper > img {
+    max-width: 100%;
+    border-radius: 1.5%;
+}
+
+
+#mario {
+    object-position: 90%;
 }
