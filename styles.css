@@ -17,11 +17,11 @@
     "wdth" 100;
 }
 
-div.about-me span {
+span.highlighter {
     background: linear-gradient(to left, rgba(0, 255, 255, 1.0), rgba(0, 255, 2, 1.0)) 0 50% / 100% 13px no-repeat;
 } 
 
-h1 {
+h1.title {
     font-family: 'Handjet';
     font-weight: 500;
     font-size: 60px;
@@ -29,7 +29,7 @@ h1 {
     margin-bottom: 0px;
 }
 
-h1 + h2 {
+h2.subtitle {
     font-family: 'Handjet';
     font-weight: 500;
     font-size: 60px;
@@ -37,14 +37,6 @@ h1 + h2 {
     font-size: 50px; 
     margin-top: 0px;
     margin-bottom: 40px; 
-}
-
-h3 {
-    font-family: "Noto Sans Display";
-    font-weight: 200;
-    font-style: italic;
-    font-size: 30px;
-    margin: 20px 20px; 
 }
 
 div.wrapper {
