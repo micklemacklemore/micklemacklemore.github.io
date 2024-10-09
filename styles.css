@@ -53,11 +53,16 @@ div.wrapper {
     padding-right: 30px;
     padding-bottom: 30px;
     overflow: hidden;
+    background-color: rgb(255, 255, 255, 0.9);
 }
 
 body {
     font-family: 'Noto Sans Display';
     font-weight: 500;
+    background-image: url("images/background.png");
+    background-color: rgb(255, 255, 255, 0.6); 
+    background-blend-mode: lighten;
+    background-size: 150px;
 }
 
 ul {
