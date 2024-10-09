@@ -39,6 +39,13 @@ h2.subtitle {
     margin-bottom: 40px;
 }
 
+article > h2 {
+    font-weight: 300;
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
 div.wrapper {
     max-width: 940px;
     margin: 0 auto;
@@ -53,6 +60,25 @@ body {
     font-weight: 500;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 2px;
+    margin: 0px 10px 10px 0px; 
+    background-color: black;
+    color: white;
+}
+
+li.first {
+    margin: 0px 10px 0px 0px; 
+
+}
+
 .project-img-container {
     display: flex;
     flex-wrap: nowrap;
@@ -63,7 +89,15 @@ body {
 
 .project-img-container > div {
     flex: 1 1 100px;
-    margin: 1px
+}
+
+.project-img-container > div.right {
+    margin-left: 6px;
+}
+
+.project-img-container > div.middle {
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 .project-img-container > div.big {
@@ -92,9 +126,46 @@ div.image-wrapper > img {
 }
 
 article {
-    margin-bottom: 80px;
+    margin-bottom: 4em;
 }
 
 #mario {
     object-position: 90%;
 }
+
+div.project-details {
+    margin: 30px; 
+    display: flex;
+    justify-content: center;
+}
+
+div.project-details > a {
+    text-decoration: none;
+    color: black; 
+}
+
+div.project-details > a:hover {
+    text-decoration: none;
+    color: white; 
+    background-color: black;
+}
+
+div.project-details a:hover img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+div.project-details > a > p {
+    margin: 0px;
+    padding: 0px 20px 0px 20px; 
+    font-weight: 900;
+    font-size: 15px; 
+}
+
+div.project-details img {
+    display: inline;
+    vertical-align: middle;
+    padding-bottom: .3em;
+    max-width: 1.6em;
+}
+
