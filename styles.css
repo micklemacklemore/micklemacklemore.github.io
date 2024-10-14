@@ -116,10 +116,22 @@ li.first {
     object-fit: cover;
 }
 
+img.resize {
+    display: block;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 div.center {
     display: flex;
     justify-content: center;
     overflow: hidden;
+}
+
+div.column {
+    flex-direction: column;
+    align-items: center;
 }
 
 div.image-wrapper {

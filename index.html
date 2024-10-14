@@ -1,50 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap"
-            rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
 
-        <!-- highlight style that's used by stack overflow -->
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css" />
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-        <!-- and it's easy to individually load additional languages -->
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script> -->
-        <script>
+    <!-- highlight style that's used by stack overflow -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <!-- and it's easy to individually load additional languages -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script> -->
+    <script>
         hljs.highlightAll();
     </script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Michael Mason Projects</title>
+</head>
 
-        <link rel="stylesheet" href="styles.css" />
-        <title>Michael Mason Projects</title>
-    </head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">Projects</h1>
+        <article>
+            <h2>GPU Path Tracer</h2>
+            <ul class="skills">
+                <li class="first">CUDA</li>
+                <li>C++</li>
+                <li>glTF Loading</li>
+                <li>Open Intel Denoising</li>
+            </ul>
+            <!-- <h3>An Interactive Path Tracer in CUDA & C++</h3> -->
+            <p>
+                <span class="highlighter">A two week solo project.</span>
 
-    <body>
-        <div class="wrapper">
-            <h1 class="title">Projects</h1>
-            <article>
-                <h2>GPU Path Tracer</h2>
-                <ul class="skills">
-                    <li class="first">CUDA</li>
-                    <li>C++</li>
-                    <li>glTF Loading</li>
-                    <li>Open Intel Denoising</li>
-                </ul>
-                <!-- <h3>An Interactive Path Tracer in CUDA & C++</h3> -->
-                <p>
-                    <span class="highlighter">A two week solo project.</span>
-
-                    This is a <span class="highlighter">Path Tracer</span>
-                    written
-                    in <span class="highlighter">C++ and CUDA</span> which
-                    utilizes GPU hardware.
+                This is a <span class="highlighter">Path Tracer</span>
+                written
+                in <span class="highlighter">C++ and CUDA</span> which
+                utilizes GPU hardware.
                 </ul>
                 This is an <span class="highlighter">interactive
                     renderer</span> that interops with OpenGL. It uses
@@ -56,124 +53,123 @@
                 <span class="highlighter">Open Intel Denoising
                     Integration.</span>
 
-                <p>Part of CIS 5650: GPU Programming.</p>
+            <p>Part of CIS 5650: GPU Programming.</p>
 
-                <div class="project-details">
-                    <a
-                        href="https://github.com/micklemacklemore/CUDA-Path-Tracer">
-                        <p><img src="images/left_click.svg" alt> GitHub
-                            Page...</p>
-                    </a>
-                </div>
-                <div class="project-img-container">
-                    <div><img src="./images/cudapathtracer/lightscene.png"
-                            alt></div>
-                    <div class="big right"><img
-                            src="./images/cudapathtracer/hero.png"></div>
-                </div>
-            </article>
-
-            <article>
-                <h2>Mini-Minecraft <span style="display: block; font-size: .4em;">by Michael
-                        Mason, Joseph Himes and Milan Filo</span></h2>
-                <!-- <h3>Minecraft from Scratch in C++</h3> -->
-                <ul class="skills">
-                    <li class="first">C++</li>
-                    <li>OpenGL</li>
-                    <li>Qt</li>
-                    <li>CPU Multi-Threading</li>
-                    <li>Draw Call Optimizations</li>
-                    <li>Super Mario 64!</li>
-                </ul>
-                <p>
-                    <span class="highlighter">A three week group project</span>.
-                    This is Minecraft built from scratch using <span class="highlighter">C++</span>. I created a
-                    <span class="highlighter">multi-threaded</span> rendering backend using OpenGL, with <span class="highlighter">draw
-                        call optimizations</span> via grouping minecraft blocks into
-                    128x128 mesh "chunks".
-                </p>
-                <p>I also intergrated Mario 64 using libraries based on the <a
-                        href="https://github.com/libsm64/libsm64">decompiled
-                        Super Mario 64 source code!</a></p>
-                <div class="project-details">
-                    <a href="google.com">
-                        <p><img src="images/left_click.svg" alt> See
-                            Project Details...</p>
-                    </a>
-                </div>
-                <div class="project-img-container">
-                    <div class="big"><img
-                            src="./images/miniminecraft/mountains.png"
-                            alt></div>
-                    <div class="right"><img id="mario"
-                            src="./images/miniminecraft/mario.png" alt></div>
-                </div>
-            </article>
-
-            <article>
-                <h2>OpenUSD Asset Database</h2>
-                <!-- <h3>A OpenUSD Browser for Asset Artists</h3> -->
-                <ul class="skills">
-                    <li class="first">OpenUSD API</li>
-                    <li>Houdini Integration</li>
-                    <li>postgreSQL Database</li>
-                    <li>NodeJS (Frontend)</li>
-                    <li>Python (Backend)</li>
-                </ul>
-                <p><span class="highlighter">A three week class project.</span> 
-
-                    This is a deployable USD asset database for an animation/VFX studio. 
-                    When a USD asset is uploaded by an artist, this app automatically extracts the metadata (i.e. asset name, artist name, versions) 
-                    and uploads this data into a postgreSQL database. Houdini integration allowed artists to download their
-                    assets from the database and continue working on them, allowing them to upload new versions, and even
-                    revert back to old versions. 
-                </p>
-                <p>This was an exercise in planning, building and designing a USD pipeline. My contribution to the project was a custom Asset URI Resolver for Houdini, which allowed artists to directly reference assets from the studio database rather than having to download them first. See Project Details on how this works.</p>
-                <div class="project-details">
-                    <a href="google.com">
-                        <p><img src="images/left_click.svg" alt> See
-                            Project Details...</p>
-                    </a>
-                    <a href="https://github.com/Griddle-Assets/griddle-asset-db">
-                        <p><img src="images/left_click.svg" alt> GitHub Page...</p>
-                    </a>
-                </div>
-                <div class="center">
-                    <div class="image-wrapper"><img class="padding"
-                            src="./images/assetbrowser/griddle.gif" alt></div
-                        class="image-wrapper">
-                    </div>
-                </article>
-
-                <article>
-                    <h2>FK/IK Animation System From Scratch</h2>
-                    <!-- <h3>FK, Limb-Based IK & Coordinate Cyclic Descent IK</h3> -->
-                    <ul class="skills">
-                        <li class="first">C++ & OpenGL</li>
-                        <li>Limb-based IK</li>
-                        <li>Coordinate Cyclic Descent IK</li>
-                    </ul>
-                    <p><span class="highlighter">A 1.5 week solo project.</span>  
-                        This C++ Unity plugin supports BVH animations to play FK-driven character animation with automatic IK-driven foot placement on uneven terrain. Additionally, characters can be posed by manipulating joints using either IK or FK manipulators.
-                    </p>
-                    <p>FK and IK systems are implemented from scratch, including fundamental IK approaches such as Psuedo-Inverse IK, Limb-Based IK & Coordinate Cyclic Descent (CCD) IK.</p>
-                    <div class="project-details">
-                        <a href="google.com">
-                            <p><img src="images/left_click.svg" alt> See
-                                Project Details...</p>
-                        </a>
-                    </div>
-                    <div class="project-img-container">
-                        <div><img src="./images/fkik/fkik1.gif" alt></div>
-                        <div class="middle"><img src="./images/fkik/fkik2.gif"
-                                alt></div>
-                        <div><img src="./images/fkik/fkik3.gif" alt></div>
-                    </div>
-                </article>
-
-                <!-- <h2>Weave Wizard Maya Plugin</h2>
-      <h3>Mesh-to-Fabric Converter, Based on a SIGGRAPH 202x Paper</h3> -->
+            <div class="project-details">
+                <a href="https://github.com/micklemacklemore/CUDA-Path-Tracer">
+                    <p><img src="images/left_click.svg" alt> GitHub
+                        Page...</p>
+                </a>
             </div>
-        </body>
+            <div class="project-img-container">
+                <div><img src="./images/cudapathtracer/lightscene.png"></div>
+                <div class="big right"><img src="./images/cudapathtracer/hero.png"></div>
+            </div>
+        </article>
 
-    </html>
+        <article>
+            <h2>Mini-Minecraft <span style="display: block; font-size: .4em;">by Michael
+                    Mason, Joseph Himes and Milan Filo</span></h2>
+            <!-- <h3>Minecraft from Scratch in C++</h3> -->
+            <ul class="skills">
+                <li class="first">C++</li>
+                <li>OpenGL</li>
+                <li>Qt</li>
+                <li>CPU Multi-Threading</li>
+                <li>Draw Call Optimizations</li>
+                <li>Super Mario 64!</li>
+            </ul>
+            <p>
+                <span class="highlighter">A three week group project</span>.
+                This is Minecraft built from scratch using <span class="highlighter">C++</span>. I created a
+                <span class="highlighter">multi-threaded</span> rendering backend using OpenGL, with <span
+                    class="highlighter">draw
+                    call optimizations</span> via grouping minecraft blocks into
+                128x128 mesh "chunks".
+            </p>
+            <p>I also intergrated Mario 64 using libraries based on the <a
+                    href="https://github.com/libsm64/libsm64">decompiled
+                    Super Mario 64 source code!</a></p>
+            <div class="project-details">
+                <a href="google.com">
+                    <p><img src="images/left_click.svg" alt> See
+                        Project Details...</p>
+                </a>
+            </div>
+            <div class="project-img-container">
+                <div class="big"><img src="./images/miniminecraft/mountains.png" alt></div>
+                <div class="right"><img id="mario" src="./images/miniminecraft/mario.png" alt></div>
+            </div>
+        </article>
+
+        <article>
+            <h2>OpenUSD Asset Database</h2>
+            <!-- <h3>A OpenUSD Browser for Asset Artists</h3> -->
+            <ul class="skills">
+                <li class="first">OpenUSD API</li>
+                <li>Houdini Integration</li>
+                <li>postgreSQL Database</li>
+                <li>NodeJS (Frontend)</li>
+                <li>Python (Backend)</li>
+            </ul>
+            <p><span class="highlighter">A three week class project.</span>
+
+                This is a deployable USD asset database for an animation/VFX studio.
+                When a USD asset is uploaded by an artist, this app automatically extracts the metadata (i.e. asset
+                name, artist name, versions)
+                and uploads this data into a postgreSQL database. Houdini integration allowed artists to download their
+                assets from the database and continue working on them, allowing them to upload new versions, and even
+                revert back to old versions.
+            </p>
+            <p>This was an exercise in planning, building and designing a USD pipeline. My contribution to the project
+                was a custom Asset URI Resolver for Houdini, which allowed artists to directly reference assets from the
+                studio database rather than having to download them first. See Project Details on how this works.</p>
+            <div class="project-details">
+                <a href="google.com">
+                    <p><img src="images/left_click.svg" alt> See
+                        Project Details...</p>
+                </a>
+                <a href="https://github.com/Griddle-Assets/griddle-asset-db">
+                    <p><img src="images/left_click.svg" alt> GitHub Page...</p>
+                </a>
+            </div>
+            <div class="center">
+                <div class="image-wrapper"><img class="padding" src="./images/assetbrowser/griddle.gif" alt></div
+                    class="image-wrapper">
+            </div>
+        </article>
+
+        <article>
+            <h2>FK/IK Animation System From Scratch</h2>
+            <!-- <h3>FK, Limb-Based IK & Coordinate Cyclic Descent IK</h3> -->
+            <ul class="skills">
+                <li class="first">C++ & OpenGL</li>
+                <li>Limb-based IK</li>
+                <li>Coordinate Cyclic Descent IK</li>
+            </ul>
+            <p><span class="highlighter">A 1.5 week solo project.</span>
+                This C++ Unity plugin supports BVH animations to play FK-driven character animation with automatic
+                IK-driven foot placement on uneven terrain. Additionally, characters can be posed by manipulating joints
+                using either IK or FK manipulators.
+            </p>
+            <p>FK and IK systems are implemented from scratch, including fundamental IK approaches such as
+                Psuedo-Inverse IK, Limb-Based IK & Coordinate Cyclic Descent (CCD) IK.</p>
+            <div class="project-details">
+                <a href="google.com">
+                    <p><img src="images/left_click.svg" alt> See
+                        Project Details...</p>
+                </a>
+            </div>
+            <div class="project-img-container">
+                <div><img src="./images/fkik/fkik1.gif" alt></div>
+                <div class="middle"><img src="./images/fkik/fkik2.gif" alt></div>
+                <div><img src="./images/fkik/fkik3.gif" alt></div>
+            </div>
+        </article>
+
+        <!-- <h2>Weave Wizard Maya Plugin</h2>
+      <h3>Mesh-to-Fabric Converter, Based on a SIGGRAPH 202x Paper</h3> -->
+    </div>
+</body>
+
+</html>
