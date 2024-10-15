@@ -21,6 +21,10 @@ span.highlighter {
     background: linear-gradient(to left, rgba(0, 255, 255, 1.0), rgba(0, 255, 2, 1.0)) 0 50% / 100% 13px no-repeat;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1.title {
     font-family: 'Handjet';
     font-weight: 500;
@@ -44,6 +48,13 @@ article > h2 {
     font-size: 40px;
     font-style: italic;
     margin-bottom: 10px;
+}
+
+section > h2 {
+    font-weight: 300;
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 40px;
 }
 
 div.wrapper {
