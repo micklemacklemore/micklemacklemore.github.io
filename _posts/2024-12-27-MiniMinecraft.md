@@ -3,8 +3,6 @@ title: Mini-Minecraft
 date: 2024-12-11 12:29:00 -0500
 toc: true
 description: OpenGL Project in C++
-categories: [projects]
-tags: [projects]     # TAG names should always be lowercase
 media_subpath: /assets/img/
 image:
     path: placeholderTexture.png
