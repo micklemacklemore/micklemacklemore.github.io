@@ -16,7 +16,7 @@ timezone:
 
 title: Michael Mason # the main title
 
-tagline: Computer Graphics Software Engineer & Technical Director # it will display as the subtitle
+tagline: Software Engineer # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Michael Mason's Homepage.
@@ -215,12 +215,11 @@ exclude:
   - purgecss.js
   - rollup.config.js
   - "package*.json"
-
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
+# jekyll-archives:
+#   enabled: [categories, tags]
+#   layouts:
+#     category: category
+#     tag: tag
+#   permalinks:
+#     tag: /tags/:name/
+#     category: /categories/:name/
