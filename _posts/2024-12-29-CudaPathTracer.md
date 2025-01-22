@@ -2,7 +2,7 @@
 title: CUDA Path Tracer
 date: 2024-12-11 12:29:00 -0500
 toc: true
-description: Lorem ipsum odor amet, consectetuer adipiscing elit. Finibus penatibus hendrerit eget ipsum consequat. Nec integer pulvinar libero sollicitudin sollicitudin nibh odio maximus. Vulputate lacinia urna ridiculus placerat gravida, finibus tempus. Curabitur curae mollis ornare rutrum nulla himenaeos magna vel. Luctus rutrum aliquet et ipsum malesuada ad habitant.
+description: C++, CUDA. Interactive path tracer. Supports glTF scenes, PBR textures and integrates Open Image Denoiser. 
 media_subpath: /assets/img/
 image:
     path: placeholderTexture.png
