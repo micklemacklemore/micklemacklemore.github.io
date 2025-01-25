@@ -5,7 +5,7 @@ toc: true
 description: OpenGL, C++, Qt. Minecraft from scratch. Multi-threaded voxel rendering. Super Mario 64 integration!
 media_subpath: /assets/img/
 image:
-    path: placeholderTexture.png
+    path: mario.png
 ---
 
 ## Overview

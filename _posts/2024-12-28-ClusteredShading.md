@@ -5,7 +5,7 @@ toc: true
 description: WebGPU, TypeScript. Fast real-time lighting in the browser. And an educational read-me!
 media_subpath: /assets/img/
 image:
-    path: placeholderTexture.png
+    path: sponza.png
 ---
 
 ## Overview

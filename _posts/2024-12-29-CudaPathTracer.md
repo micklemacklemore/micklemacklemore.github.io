@@ -5,7 +5,7 @@ toc: true
 description: C++, CUDA. Interactive path tracer. Supports glTF scenes, PBR textures and integrates Open Image Denoiser. 
 media_subpath: /assets/img/
 image:
-    path: placeholderTexture.png
+    path: hero.png
 ---
 
 ## Overview
