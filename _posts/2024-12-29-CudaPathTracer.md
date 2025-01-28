@@ -8,6 +8,10 @@ image:
     path: hero.png
 ---
 
-A two week solo project. This is a Path Tracer written in C++ and CUDA which utilizes GPU hardware. This is an interactive renderer that interops with OpenGL. It uses fundamental BSDF models such as diffuse, perfect specular, specular transmission and Cook-Torrance microfacet model. It supports glTF scene loading and has Open Intel Denoising Integration.
+A two week solo project. 
+
+This is a Path Tracer written in C++ and CUDA which utilizes GPU hardware. This is an interactive renderer that interops with OpenGL. It uses fundamental BSDF models such as diffuse, perfect specular, specular transmission and Cook-Torrance microfacet model. It supports glTF scene loading and has Open Intel Denoising Integration.
 
 Part of CIS 5650: GPU Programming.
+
+### [See my GitHub Repo...](https://github.com/micklemacklemore/CUDA-Path-Tracer)
