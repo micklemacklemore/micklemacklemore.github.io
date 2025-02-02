@@ -8,10 +8,24 @@ image:
     path: hero.png
 ---
 
+### [See my GitHub Repo...](https://github.com/micklemacklemore/CUDA-Path-Tracer)
+
 A two week solo project. 
 
-This is a Path Tracer written in C++ and CUDA which utilizes GPU hardware. This is an interactive renderer that interops with OpenGL. It uses fundamental BSDF models such as diffuse, perfect specular, specular transmission and Cook-Torrance microfacet model. It supports glTF scene loading and has Open Intel Denoising Integration.
+This is a Path Tracing Renderer (i.e. Arnold, RenderMan, V-Ray) written in C++ and CUDA which utilizes GPU hardware. This is an interactive renderer! It supports basic materials and scene handling, including glTF support, color & normal textures, and more!
 
-Part of CIS 5650: GPU Programming.
+### Supported Features
 
-### [See my GitHub Repo...](https://github.com/micklemacklemore/CUDA-Path-Tracer)
+* glTF File Format
+* Albedo Maps
+* Normal Maps
+* Depth of field
+* Open Image Denoiser intergration
+* Physically-Based Materials (BxDFs)
+  * Matte (Perfect Diffuse BRDF)
+  * Mirror (Perfect Specular BRDF)
+  * Glass (Specular Reflection BRDF + Specular Transmission BTDF, mixed by fresnel)
+  * Brushed Metal (Torrance-Sparrow Microfacet BRDF Model with a Trowbridge-Reitz Distribution)
+
+Part of my Computer Graphics graduate program at University of Pennsylvania: CIS 5650: GPU Programming.
+
