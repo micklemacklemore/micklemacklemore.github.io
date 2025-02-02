@@ -38,9 +38,15 @@ html {
 }
 
 body {
-  background: var(--main-bg);
+  background: url('../../assets/img/teapot-bg-2.png') repeat, var(--main-bg);
+
+  background-blend-mode: normal, overlay; /* Blending layers */
+  background-size: auto, auto, auto; /* Ensure each layer is positioned correctly */
+  background-position: top, top, top; /* Keep the image at the top */
+
   padding: env(safe-area-inset-top) env(safe-area-inset-right)
     env(safe-area-inset-bottom) env(safe-area-inset-left);
+
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   font-family: v.$font-family-base;
