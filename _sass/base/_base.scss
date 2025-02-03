@@ -136,6 +136,10 @@ main {
 }
 
 .content {
+  background: var(--main-bg); // White background at 85% opacity
+  padding: 1rem; // Adjust padding as needed
+  border-radius: 5px; // Optional: rounds the corners
+
   font-size: 1.08rem;
   margin-top: 2rem;
   overflow-wrap: break-word;
