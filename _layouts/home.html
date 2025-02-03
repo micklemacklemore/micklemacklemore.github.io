@@ -7,6 +7,8 @@ refactor: true
 %} {% assign all_normal = site.posts | where_exp: 'item', 'item.pin != true and
 item.hidden != true' %} {% assign posts = '' | split: '' %}
 
+<h1>Projects</h1>
+
 <!-- Get pinned posts on current page -->
 
 {% assign visible_start = paginator.page | minus: 1 | times: paginator.per_page
